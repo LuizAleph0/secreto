@@ -1,0 +1,131 @@
+
+
+/* geral */
+body {
+    background: linear-gradient(#2929b4, #65B6E6);
+    background-attachment: fixed;
+    color: #2727a5;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+li {
+    list-style: none;
+    margin: auto;
+}
+
+h1 {
+    text-shadow: 3px 3px 4px rgba(0, 0, 255, 0.39);
+    text-align: center;
+    margin-top: 5%;
+    cursor: default;
+}
+
+main {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+div {
+    box-shadow: 5px 5px 15px rgba(0, 0, 100, 0.459);
+    border: 2px solid #65B6E6;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #9DCEEB;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+
+div:hover {
+    transition-duration: 0.3s;
+    display: inline-table;
+    background-color: #3637E5;
+    border-color: yellow;
+}
+
+div > .p1 {
+    display: none;
+}
+
+div:hover > p {
+    color: white;
+    transition-duration: 0.4s;
+}
+
+div:hover > .p1 {
+    display: block;
+    color: yellow;
+}
+
+
+/* index */
+
+.firstheader {
+    margin: auto;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;    
+}
+
+.firstheader > p {
+    display: none;
+}
+
+.firstheader:hover > p {
+    transition-duration: 0.3s;
+    cursor: default;
+    display: block;
+    color: yellow;
+}
+
+
+/* wrong */
+
+.wrongmain {
+    text-align: center;
+}
+
+.wrongdiv {
+    text-align: center;
+}
+
+
+/* secret... */
+
+.stxt {
+    color: #65B6E6;
+}
+
+
+/* video */
+
+.endbody {
+    background-attachment: fixed;
+    background: linear-gradient(#1d1d7c, #1d1d7c)
+}
+
+.enddiv {
+    border-color: white;
+    background-color: #3637E5;
+    color: white;
+}
+
+.enddiv:hover {
+    transition-duration: 0.2s;
+    background-color: #1c1c79;
+}
+
+.endmain {
+    margin-top: 5%;
+}
+
+.endheader {
+    margin-top: 5%;
+    text-align: center;
+    justify-content: baseline;
+}
